@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd"
+        logicalFilePath="db/changelog/queries">
+
+    <changeSet id="1" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/01.create-table-faculty.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/02.create-table-work_type.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="3" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/03.create-table-department.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="4" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/04.create-table-professors.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="5" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/05.create-table-speciality.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="6" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/06.create-table-students.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="7" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/07.create-table-tests.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="8" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/08.faculty-table-data-insert.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="9" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/09.spec-data-insert.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="10" author="Developer">
+        <sqlFile encoding="utf8" path="./queries/10.students-data.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+</databaseChangeLog>
